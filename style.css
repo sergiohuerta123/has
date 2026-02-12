@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #87ceeb 60%, #4caf50 40%);
+    text-align: center;
+}
+
+.game-container {
+    background: white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.scoreboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.field {
+    height: 60px;
+    margin: 15px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#pitch-btn { background: #2196f3; color: white; }
+#swing-btn { background: #ff5722; color: white; }
+#reset-btn { background: #555; color: white; }
